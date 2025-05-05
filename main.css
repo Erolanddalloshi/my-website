@@ -1,0 +1,156 @@
+style
+        html{
+            font-size: 22px;
+        }
+    
+        body{
+            background-color: #333;
+            color: #333;
+        }
+
+a {
+    color: aliceblue;
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:hover, a:active{
+    color: #eee;
+}
+
+tabel tr, th, td, caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #b5b5b5;
+    color: #333;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 1em 2em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    margin-top: 0.5em;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  /* Main content */
+  main {
+    padding: 2em;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 2em;
+  }
+  
+  h2, h3 {
+    color: #004080;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  
+  table, th, td {
+    border: 1px solid #030000;
+  }
+  
+  th, td {
+    padding: 0.75em;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #e6f0ff;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #fff;
+    padding: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 500px;
+  }
+  
+  form p {
+    margin-bottom: 1em;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.25em;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003060;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c35d8;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    margin-top: 2em;
+  }
+  

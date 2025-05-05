@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="html.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>My Webpage</title>
+</head>
+<body>
+    <div id="top"></div> <!-- Anchor for 'Back to top' -->
+
+    <header>
+        <h1>My Goals of the Year</h1>
+        <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation" class="visually-hidden">Primary Navigation</h2>
+            <ul>
+                <li><a href="#html">Learning HTML</a></li>
+                <li><a href="#vacation">Planning a Vacation</a></li>
+                <li><a href="#contact">contact me</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="html">
+            <h2>I'm Ready to Learn HTML</h2>
+            <p>This is my webpage.</p>
+
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html.png" alt="HTML5 logo" title="I am learning HTML" width="300" height="300">
+                <figure>
+                    <figcaption>An example of HTML5 code</figcaption>
+                    <p><code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></p>
+                </figure>
+            </section>
+
+            <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                    <li>I learn about web development.</li>
+                    <li>I plan out my schedule.</li>
+                    <li>I use resources from
+                        <a href="https://developer.mozilla.org/">
+                            <abbr title="Mozilla Developer Network">MDN</abbr>
+                        </a>.
+                    </li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                        <p>I start at <time datetime="08:00">8 AM</time> and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+                    </details>
+                </aside>
+                <br>
+                <table>
+                    <tr>
+                        <th>time</th>
+                        <th>activity</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <time datetime="08:00">8 am
+                            </time>-<time 
+                            datatime="11:00">11 am</time>
+                        </td>
+                        <td>write code</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <time datetime="11:00">11 am
+                            </time>-<time 
+                            datatime="12:00">12 pm</time>
+                        </td>
+                        <td>eat lunch</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <time datetime="12:00">12 pm
+                            </time>-<time 
+                            datatime="17:00">5 pm</time>
+                        </td>
+                        <td>study other courses</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">all other times</td>
+                        <td>free time </td>
+                    </tr>
+                    <tr>
+                        <td>sleep</td>
+                    </tr>
+
+                </table>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="vacation">
+            <h2>I Am Planning a Vacation</h2>
+            <p>I've been working hard and <em>really need a getaway</em>.</p>
+            <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
+
+            <section>
+                <h3>Places I'd Like to Visit</h3>
+                <ul>
+                    <li>
+                        <p>I've heard good things about the Caribbean.</p>
+                        <figure>
+                            <img src="img/carabien.jfif" alt="Caribbean beach" title="I want to visit a Caribbean beach" width="400" height="225" loading="lazy">
+                            <figcaption>Caribbean beach getaway</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        I've heard good things about going here:
+                        <address>
+                            Margaritaville Island Reserve Riviera Cancun<br>
+                            Bahia Petempich, Puerto Morelos, Mexico<br>
+                            Colonia Morelos, Mexico 77580
+                        </address>
+                        <figure>
+                            <img src="img/vacation.jfif" alt="Cancun vacation" title="It's 5 o'clock somewhere!" width="400" height="267" loading="lazy">
+                            <figcaption>A Caribbean vacation image</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Places I Want to Avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>cold</strong>!</dd>
+
+                    <dt>South Pole</dt>
+                    <dd>This is also cold.</dd>
+
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also cold.</dd>
+                </dl>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="contact">
+            <h2>contact me</h2>
+            <p>id really like to hear from you</p>
+
+            <form action="https://httpbin.org/get" 
+            method="get">
+               <p>
+                <label for="firstName">firstName</label>
+                <input type="text" name="firstName" 
+                id="firstName" placeholder="emri" 
+                autocomplete="on" required 
+                    autofocus>
+                </p>
+                <p>
+                <label for="LastName">LastName</label>
+                <input type="text" name="LastName" 
+                id="LastName" placeholder="mbiemri" 
+                autocomplete="on" required 
+                    autofocus>
+                </p>
+                <p>
+                    <label for="pasword">pasword</label>
+                    <input type="password" name="pasword" 
+                    id="pasword" placeholder="your secert" 
+                    required> 
+                </p><p>
+                    <label for="pasword">pasword</label>
+                    <input type="password" name="pasword" 
+                    id="pasword" placeholder="your secert" 
+                    required> 
+                </p>
+                <p>
+                    <label for="pasword">pasword</label>
+                    <input type="password" name="pasword" 
+                    id="pasword" placeholder="your secert" 
+                    required> 
+                </p>
+                <p>
+                    <label for="phone">phone</label>
+                    <input type="tel" name="phone" 
+                    id="phone" placeholder="04xxxxxx" 
+                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                      required> 
+                </p>
+                <p>
+                    <label for="decade">favorite decade</label>
+                    <input type="number" name="decade" 
+                    id="decade" min="1950" max="2020" 
+                    step="10" value="1980">
+                </p>
+                <p>
+                    <label for="coffe">favorite coffe
+                    </label>
+                    <select name="coffe" id="coffe">
+                        <option value="regural 
+                        coffe" selected>regural coffe</option>
+                        <option value="iced coffe">iced
+                        coffe</option>
+                        <option value="latte">latte</option>
+                        <option value="cappuccino">cappuccino</option>
+                        <option value="cortado">cortado</option>
+                        <option value="americano">americano</option>
+                        <option value="others">others</option>
+                    </select>
+                </p>
+            </form>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        &lt;&lt;&lt; &copy; <a href="about.html">Eroland Dalloshi</a> &gt;&gt;&gt;
+        <p><a href="#top">Back to top</a></p>
+    </footer>
+
+</body>
+</html>
